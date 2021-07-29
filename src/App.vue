@@ -16,13 +16,14 @@
         <ul href="#about">
           About
         </ul>
-        <ul href="contact">
+        <ul href="#contact">
           Contact
         </ul>
       </li>
     </div>
-    <div3/>
-    <div5/>
+    <div3 />
+    <div5 />
+    <div7 />
     <router-view/>
   </div>
 </template>
@@ -31,11 +32,13 @@
 
 import div3 from '@/components/div3.vue'
 import div5 from '@/components/div5.vue'
+import div7 from '@/components/div7.vue'
 
   export default {
     components: {
       div3, 
-      div5
+      div5,
+      div7
     }
   }
 </script>
