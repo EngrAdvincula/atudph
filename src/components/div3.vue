@@ -58,6 +58,7 @@ export default {
             }
             .div3-subcontainer {
                 display: flex;
+                margin-top: 150px;
                     .div3-elements {
                         font-family: Arial, Helvetica, sans-serif;
                         height: auto;
@@ -83,8 +84,10 @@ export default {
 
     @media screen and (max-width: 935px) {
         .div3-container {
+            height: 150vh;
             .div3-subcontainer {
                 display: block;
+                margin-top: 0;
                     .div3-elements {
                         .img-container {
                             width: 100%;
