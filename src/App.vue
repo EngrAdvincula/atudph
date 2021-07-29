@@ -2,7 +2,7 @@
   <div id="app">
     <div id="nav">
       <h1 class="logo">
-          Atud
+          <img src="@/assets/logo2.png" alt="Arud logo">
       </h1>
       <div class="burger">
           <div class="b1"></div>
@@ -21,16 +21,18 @@
         </ul>
       </li>
     </div>
+    <div3/>
     <router-view/>
   </div>
 </template>
 
 <script>
 
+import div3 from '@/components/div3.vue'
 
   export default {
     components: {
-      
+      div3
     }
   }
 </script>
@@ -71,20 +73,22 @@
         }
       }
       .logo {
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        position: absolute;
-        top: 15px;
-        left: 3%;
+        img {
+          position: absolute;
+          top: 9px;
+          left: 3%;
+          height: 50px;
+          width: 100px;
+        }
       }
       li {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
         color: white;
-        font-size: 1.25em;
+        font-size: 1em;
         display: flex;
         position: absolute;
-        top: 20px;
+        top: 27px;
         right: 5%;
           ul {
             margin-left: 40px;
