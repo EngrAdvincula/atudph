@@ -2,7 +2,7 @@
   <div id="app">
     <div id="nav">
       <h1 class="logo">
-          Atud
+          <img src="@/assets/logo2.png" alt="Arud logo">
       </h1>
       <div class="burger">
           <div class="b1"></div>
@@ -16,14 +16,37 @@
         <ul href="#about">
           About
         </ul>
-        <ul href="contact">
+        <ul href="#contact">
           Contact
         </ul>
       </li>
     </div>
+    <div2 />
+    <div3 />
+    <div4 />
+    <div5 />
+    <div7 />
     <router-view/>
   </div>
 </template>
+
+<script>
+import div2 from '@/components/div2.vue'
+import div3 from '@/components/div3.vue'
+import div4 from '@/components/div4.vue'
+import div5 from '@/components/div5.vue'
+import div7 from '@/components/div7.vue'
+
+  export default {
+    components: {
+      div2,
+      div3, 
+      div4,
+      div5,
+      div7
+    }
+  }
+</script>
 
 <style lang="scss">
   $primaryColor: #2da81a;
@@ -32,10 +55,11 @@
     padding: 0;
   }
   #nav {
+    position: relative;
     width: 100%;
     height: 70px;
     background-color: $primaryColor;
-    position: relative;
+    border-bottom: 1.5px rgb(75, 74, 74) solid;
       .burger {
         position: absolute;
         display: none;
@@ -60,20 +84,22 @@
         }
       }
       .logo {
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        position: absolute;
-        top: 15px;
-        left: 3%;
+        img {
+          position: absolute;
+          top: 9px;
+          left: 3%;
+          height: 50px;
+          width: 100px;
+        }
       }
       li {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
         color: white;
-        font-size: 1.25em;
+        font-size: 1em;
         display: flex;
         position: absolute;
-        top: 20px;
+        top: 27px;
         right: 5%;
           ul {
             margin-left: 40px;
@@ -92,7 +118,6 @@
       }
       ul {
         display: none;
-
       }
     }
 }
