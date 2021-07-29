@@ -21,7 +21,9 @@
         </ul>
       </li>
     </div>
+    <div2 />
     <div3 />
+    <div4 />
     <div5 />
     <div7 />
     <router-view/>
@@ -29,14 +31,17 @@
 </template>
 
 <script>
-
+import div2 from '@/components/div2.vue'
 import div3 from '@/components/div3.vue'
+import div4 from '@/components/div4.vue'
 import div5 from '@/components/div5.vue'
 import div7 from '@/components/div7.vue'
 
   export default {
     components: {
+      div2,
       div3, 
+      div4,
       div5,
       div7
     }
