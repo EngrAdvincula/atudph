@@ -25,6 +25,16 @@
   </div>
 </template>
 
+<script>
+
+
+  export default {
+    components: {
+      
+    }
+  }
+</script>
+
 <style lang="scss">
   $primaryColor: #2da81a;
   * {
@@ -32,10 +42,11 @@
     padding: 0;
   }
   #nav {
+    position: relative;
     width: 100%;
     height: 70px;
     background-color: $primaryColor;
-    position: relative;
+    border-bottom: 1.5px rgb(75, 74, 74) solid;
       .burger {
         position: absolute;
         display: none;
@@ -92,7 +103,6 @@
       }
       ul {
         display: none;
-
       }
     }
 }
