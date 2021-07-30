@@ -25,6 +25,7 @@
     <div3 />
     <div4 />
     <div5 />
+    <div6 />
     <div7 />
     <router-view/>
   </div>
@@ -35,6 +36,7 @@ import div2 from '@/components/div2.vue'
 import div3 from '@/components/div3.vue'
 import div4 from '@/components/div4.vue'
 import div5 from '@/components/div5.vue'
+import div6 from '@/components/div6.vue'
 import div7 from '@/components/div7.vue'
 
   export default {
@@ -43,8 +45,9 @@ import div7 from '@/components/div7.vue'
       div3, 
       div4,
       div5,
+      div6,
       div7
-    }
+    },
   }
 </script>
 
@@ -121,4 +124,7 @@ import div7 from '@/components/div7.vue'
       }
     }
 }
+
+
+
 </style>

@@ -2,7 +2,7 @@
   <div class="favorite">
            <div class="text-fav">
 
-           <h1>Ngamin na paborito mong <br><br> Pagkaon, Digdi samo! </h1>
+              <h1>Ngamin na paborito mong <br><br> Pagkaon, Digdi samo! </h1>
 
 
            </div>
@@ -30,7 +30,6 @@
     .text-fav {
        position: absolute;
        float: left;
-       width: 100%;
        padding-top: 200px;
        padding-left: 125px;
     }
@@ -49,6 +48,7 @@
         .text-fav {
           padding: 0;
           top: 30%;
+          width: 100%;
           h1 {
             font-size: 3em;
             text-align: center;
