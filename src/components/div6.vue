@@ -99,10 +99,6 @@ export default {
         left:0;
         justify-content: flex-end;
     }
-    .carousel-slider {
-        
-        
-    }
     .carousel-slider img {
         width:100%;
         height:100%;
