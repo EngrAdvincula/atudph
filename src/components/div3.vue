@@ -2,12 +2,12 @@
   <div class="div3-container">
       <h1 class="pano-text">Pano?</h1>
         <div class="div3-subcontainer">
-            <div class="div3-elements" v-for="el in div3Elemets" :key="el.id">
+            <div class="div3-elements" v-for="le in div3Elemets" :key="le.id">
                 <div class="img-container">
-                    <img v-bind:src="el.pics">
+                    <img :src="le.pics">
                 </div>
-                <h1>{{el.h1}}</h1>
-                <p>{{el.p}}</p>
+                <h1>{{le.h1}}</h1>
+                <p>{{le.p}}</p>
             </div>
         </div>
   </div>

@@ -24,12 +24,11 @@
   .favorite{
     background-color: $primaryColor;
     position: relative;
-    height: 720px;
+    height: 100vh;
     width: 100%;
 
     .text-fav {
        position: absolute;
-       max-width: 542px;
        float: left;
        width: 100%;
        padding-top: 200px;
@@ -45,4 +44,16 @@
     }
   }
 
+   @media screen and (max-width: 685px) {
+      .favorite {
+        .text-fav {
+          padding: 0;
+          top: 30%;
+          h1 {
+            font-size: 3em;
+            text-align: center;
+          }
+        }
+      }
+   }
 </style>
