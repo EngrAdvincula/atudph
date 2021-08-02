@@ -26,7 +26,7 @@ export default {
             slides: [
               {
                 id: 1,
-                pics: require('@/assets/logo3.png'),
+                pics: require('@/assets/img1.jpg'),
                 h1: '',
                 p: ''
               },
@@ -100,8 +100,9 @@ export default {
         justify-content: flex-end;
     }
     .carousel-slider img {
+        object-fit: cover;
         width:100%;
-        height:100%;
+        height: 700px;
     }
   
 </style>

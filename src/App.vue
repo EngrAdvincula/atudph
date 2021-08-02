@@ -58,7 +58,8 @@ import div7 from '@/components/div7.vue'
     padding: 0;
   }
   #nav {
-    position: relative;
+    position: fixed;
+    z-index: 999;
     width: 100%;
     height: 70px;
     background-color: $primaryColor;
@@ -116,6 +117,7 @@ import div7 from '@/components/div7.vue'
 
 @media screen and (max-width: 480px) {
     #nav {
+      position: static;
       .burger {
         display: block;
       }
