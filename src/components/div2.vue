@@ -218,6 +218,7 @@
                          left: 0;
                          right: 0;
                          text-align: center;
+                         margin-top: 80px ;
 
                          .btn-container {
                               width: 100%;
@@ -235,6 +236,7 @@
                   .atud-bike-container {
                          margin-left: auto;
                          margin-right: auto;
+                         margin-top: 80px;
                          left: 0;
                          right: 0;
                          text-align: center;
@@ -270,7 +272,14 @@
    @media screen and (max-width: 855px) {
         .banner {
              .text {
-                  margin-top: 50px;
+                  margin-top: 150px;
+                  line-height: 50px;
+                  h1 {
+                       line-height: 100%;
+                  }
+                  h2 {
+                       line-height: 100%;
+                  }
              }
              height: 100vh;
              .img-container {
@@ -302,11 +311,13 @@
    @media screen and (max-width: 757px) {
         .banner {
              .text {
-                  margin-top: 90px;
+                  margin-top: 180px;
                   h1 {
                        font-size: 3em;
+                       line-height: 150%;
                   }
                   h2 {
+                       line-height: 150%;
                        font-size: 3em;
                   }
                   .btn-container {
