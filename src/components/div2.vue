@@ -117,21 +117,23 @@
           }
 
           .btn {
-               position: relative;
-               font-size: 16px;
+                position: relative;
+               font-size: 1em;
                font-family: 'Poppins', sans-serif;
                font-weight: 700;
                background-color: #ffffff;
                color: $primaryColor;
-               padding: 12px 0px;
+               padding: 12px 0px 12px 0px;
                width: 100%;
-               max-width: 190px;
+               height: 100%;
+               max-width: 180px;
                text-align: center;
+               vertical-align: middle;
                display: inline-block;
                text-transform: normal;
                text-decoration: none;
                border-radius: 25px;
-               margin:1.2em 4em 1em 0;
+               margin:0.6em 3em 1em 0;
                transition: 400ms;
                cursor: pointer;
                outline: none;
