@@ -63,7 +63,7 @@ import div7 from '@/components/div7.vue'
     width: 100%;
     height: 70px;
     background-color: $primaryColor;
-    border-bottom: 1.5px rgb(75, 74, 74) solid;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
       .burger {
         position: absolute;
         display: none;
