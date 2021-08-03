@@ -1,11 +1,11 @@
 <template>
   <div class="favorite">
            <div class="text-fav">
-
               <h1>Ngamin na paborito mong <br><br> Pagkaon, Digdi samo! </h1>
-
-
            </div>
+                 <div class="div4-img-container">
+          <img src="@/assets/fav.png" alt="Fav Image">
+      </div>
   </div>
 </template>
 
@@ -41,6 +41,19 @@
         font-weight: normal;
         color: #ffffff;
     }
+    .div4-img-container {
+                height: 100vh;
+                width: 40%;
+                position: relative;
+                bottom: 0;
+                img {
+                    position: absolute;
+                    bottom: 0;
+                    width: 100%;
+                    height: auto;
+                    right: -140%;
+                }
+            }
   }
 
    @media screen and (max-width: 685px) {
@@ -54,6 +67,9 @@
             text-align: center;
           }
         }
+        .div4-img-container {
+                display: none;
+            }
       }
    }
 </style>

@@ -72,9 +72,9 @@ export default {
         width:100%;
     }
     .btn {
-        padding:5px 10px;
-        background-color:rgba(0,0,0,0.5);
-        border:1px solid transparent;
+        padding:5px;
+        background-color:rgba(0,0,0,0);
+        border: solid transparent;
         margin:5px 10px;
         color:#FFF;
         height:50px;
@@ -102,7 +102,7 @@ export default {
     .carousel-slider img {
         object-fit: cover;
         width:100%;
-        height: 700px;
+        height: 670px;
     }
   
 </style>
