@@ -10,14 +10,41 @@
     <ul class="carousel__items">
       <li class="carousel__item"><img src="@/assets/img1.jpg" alt=""> 
       <div class="centered">
-        Centered
+        <h1>A New Food Delivery Service Launches in Bicol</h1>
+        <h5>by Cyd Jae Abad | October 17,2020 | Newsroom | 0 Comments</h5>
+        <h4>Bicol’s local Para TIndas shortcomings became a solution in giving job opportunities to different Para Atud. Hitting two birds with one stone, Atud will soon rise in Bicol to deliver whatever it is your heart wants.</h4>
         </div>
       </li>
-      <li class="carousel__item"><img src="@/assets/img2.jpg" alt=""> <div class="centered">Centered</div></li>
-      <li class="carousel__item"><img src="@/assets/img3.jpg" alt=""> <div class="centered">Centered</div></li>
-      <li class="carousel__item"><img src="@/assets/img4.jpg" alt=""> <div class="centered">Centered</div></li>
-      <li class="carousel__item"><img src="@/assets/img5.jpg" alt=""> <div class="centered">Centered</div></li>
-      <li class="carousel__item"><img src="@/assets/img4.jpg" alt=""> <div class="centered">Centered</div></li>
+      <li class="carousel__item"><img src="@/assets/img2.jpg" alt="">       
+      <div class="centered">
+        <h1>A New Food Delivery Service Launches in Bicol</h1>
+        <h5>by Cyd Jae Abad | October 17,2020 | Newsroom | 0 Comments</h5>
+        <h4>Bicol’s local Para TIndas shortcomings became a solution in giving job opportunities to different Para Atud. Hitting two birds with one stone, Atud will soon rise in Bicol to deliver whatever it is your heart wants.</h4>
+        </div></li>
+      <li class="carousel__item"><img src="@/assets/img3.jpg" alt="">       
+      <div class="centered">
+        <h1>A New Food Delivery Service Launches in Bicol</h1>
+        <h5>by Cyd Jae Abad | October 17,2020 | Newsroom | 0 Comments</h5>
+        <h4>Bicol’s local Para TIndas shortcomings became a solution in giving job opportunities to different Para Atud. Hitting two birds with one stone, Atud will soon rise in Bicol to deliver whatever it is your heart wants.</h4>
+        </div></li>
+      <li class="carousel__item"><img src="@/assets/img4.jpg" alt="">       
+      <div class="centered">
+        <h1>A New Food Delivery Service Launches in Bicol</h1>
+        <h5>by Cyd Jae Abad | October 17,2020 | Newsroom | 0 Comments</h5>
+        <h4>Bicol’s local Para TIndas shortcomings became a solution in giving job opportunities to different Para Atud. Hitting two birds with one stone, Atud will soon rise in Bicol to deliver whatever it is your heart wants.</h4>
+        </div></li>
+      <li class="carousel__item"><img src="@/assets/img5.jpg" alt="">       
+      <div class="centered">
+        <h1>A New Food Delivery Service Launches in Bicol</h1>
+        <h5>by Cyd Jae Abad | October 17,2020 | Newsroom | 0 Comments</h5>
+        <h4>Bicol’s local Para TIndas shortcomings became a solution in giving job opportunities to different Para Atud. Hitting two birds with one stone, Atud will soon rise in Bicol to deliver whatever it is your heart wants.</h4>
+        </div></li>
+      <li class="carousel__item"><img src="@/assets/img4.jpg" alt="">       
+      <div class="centered">
+        <h1>A New Food Delivery Service Launches in Bicol</h1>
+        <h5>by Cyd Jae Abad | October 17,2020 | Newsroom | 0 Comments</h5>
+        <h4>Bicol’s local Para TIndas shortcomings became a solution in giving job opportunities to different Para Atud. Hitting two birds with one stone, Atud will soon rise in Bicol to deliver whatever it is your heart wants.</h4>
+        </div></li>
     </ul>
      <div class="carousel__prev">
       <label for="carousel-1"></label>
@@ -148,7 +175,7 @@
       padding: 0;
       list-style-type: none;
       width: 100%;
-      height: 600px;
+      height: 650px;
       position: relative;
     }
 
@@ -164,7 +191,6 @@
 
       img {
         width: 100%;
-        height: 135%;
         vertical-align: middle;
         background-size: cover;
       }
@@ -173,8 +199,6 @@
     &__prev,
     &__next {
       > label {
-        border: 1px solid #fff;
-        border-radius: 50%;
         cursor: pointer;
         display: block;
         width: 40px;
@@ -250,8 +274,8 @@
         border-radius: 50%;
         cursor: pointer;
         margin: 0 .125%;
-        width: 20px;
-        height: 20px;
+        width: 9px;
+        height: 9px;
       }
     }
   }
@@ -307,6 +331,28 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+   h1 {
+        line-height: 1.6;
+        font-size: 1 em;
+        font-size: 45px;
+        font-family:  "Trebuchet MS", Helvetica, sans-serif;
+        font-weight: 700;
+        color: #ffffff;
+        padding-bottom: 40px;
+    }
+    h5 {
+        line-height: 1.6;
+        font-family:  "Trebuchet MS", Helvetica, sans-serif;
+        font-weight: normal;
+        color: #ffffff;
+        padding-bottom: 20px;
+    }
+    h4 {
+        line-height: 1.6;
+        font-family:  "Trebuchet MS", Helvetica, sans-serif;
+        font-weight: normal;
+        color: #ffffff;
+    }
 }
 
 @include carousel(6);
