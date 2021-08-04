@@ -40,6 +40,7 @@
     padding: 0;
   }
   .banner{
+    background:rgba(0,0,0,0.6);
     background-color: $primaryColor;
     position: relative;
     height: 100vh;
