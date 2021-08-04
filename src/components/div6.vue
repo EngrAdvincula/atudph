@@ -8,7 +8,11 @@
     <input type="radio" id="carousel-5" name="carousel[]">
     <input type="radio" id="carousel-6" name="carousel[]">
     <ul class="carousel__items">
-      <li class="carousel__item"><img src="@/assets/img1.jpg" alt=""> <div class="centered">Centered</div></li>
+      <li class="carousel__item"><img src="@/assets/img1.jpg" alt=""> 
+      <div class="centered">
+        Centered
+        </div>
+      </li>
       <li class="carousel__item"><img src="@/assets/img2.jpg" alt=""> <div class="centered">Centered</div></li>
       <li class="carousel__item"><img src="@/assets/img3.jpg" alt=""> <div class="centered">Centered</div></li>
       <li class="carousel__item"><img src="@/assets/img4.jpg" alt=""> <div class="centered">Centered</div></li>
@@ -160,6 +164,7 @@
 
       img {
         width: 100%;
+        height: 135%;
         vertical-align: middle;
         background-size: cover;
       }
@@ -269,7 +274,6 @@ body {
   position: relative;
   object-fit: cover;
   width: 100%;
-  height: 600px;
   margin: auto;
   text-align: center;
 
