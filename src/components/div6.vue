@@ -6,12 +6,14 @@
      <input type="radio" id="carousel-3" name="carousel[]">
     <input type="radio" id="carousel-4" name="carousel[]">
     <input type="radio" id="carousel-5" name="carousel[]">
+    <input type="radio" id="carousel-6" name="carousel[]">
     <ul class="carousel__items">
       <li class="carousel__item"><img src="@/assets/img1.jpg" alt=""> <div class="centered">Centered</div></li>
       <li class="carousel__item"><img src="@/assets/img2.jpg" alt=""> <div class="centered">Centered</div></li>
       <li class="carousel__item"><img src="@/assets/img3.jpg" alt=""> <div class="centered">Centered</div></li>
       <li class="carousel__item"><img src="@/assets/img4.jpg" alt=""> <div class="centered">Centered</div></li>
       <li class="carousel__item"><img src="@/assets/img5.jpg" alt=""> <div class="centered">Centered</div></li>
+      <li class="carousel__item"><img src="@/assets/img4.jpg" alt=""> <div class="centered">Centered</div></li>
     </ul>
      <div class="carousel__prev">
       <label for="carousel-1"></label>
@@ -19,6 +21,7 @@
       <label for="carousel-3"></label>
       <label for="carousel-4"></label>
       <label for="carousel-5"></label>
+      <label for="carousel-6"></label>
      </div>
      <div class="carousel__next">
        <label for="carousel-1"></label>
@@ -26,6 +29,7 @@
        <label for="carousel-3"></label>
        <label for="carousel-4"></label>
        <label for="carousel-5"></label>
+       <label for="carousel-6"></label>
      </div>
      <div class="carousel__nav">
        <label for="carousel-1"></label>
@@ -33,6 +37,7 @@
        <label for="carousel-3"></label>
        <label for="carousel-4"></label>
        <label for="carousel-5"></label>
+       <label for="carousel-6"></label>
      </div>
    </div>
  </div>
@@ -264,7 +269,7 @@ body {
   position: relative;
   object-fit: cover;
   width: 100%;
-  height: 700px;
+  height: 600px;
   margin: auto;
   text-align: center;
 
@@ -300,5 +305,5 @@ body {
 }
 }
 
-@include carousel(5);
+@include carousel(6);
 </style>
