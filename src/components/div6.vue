@@ -1,6 +1,7 @@
 <template>
 <div class="container">
-  <div class="carousel">
+  <div class="black-overlay">
+    <div class="carousel">
     <input type="radio" id="carousel-1" name="carousel[]" checked>
     <input type="radio" id="carousel-2" name="carousel[]">
      <input type="radio" id="carousel-3" name="carousel[]">
@@ -70,7 +71,8 @@
        <label for="carousel-5"></label>
        <label for="carousel-6"></label>
      </div>
-   </div>
+  </div>
+  </div>
  </div>
 </template>
 
@@ -86,6 +88,7 @@
     margin: 0;
     padding: 0;
   }
+
   
 %animation-default {
   opacity: 1 !important;
@@ -98,6 +101,15 @@
     position: relative;
     overflow: hidden;
     background-size: cover;
+    z-index: -10;
+    
+
+    ul {
+      width: 100%;
+      height: 700px;
+      z-index: 1;
+      background-color: black ;
+    }
 
     > input[type="radio"] {
       position: absolute;
@@ -189,11 +201,12 @@
       transition: opacity 2s;
       -webkit-transition: opacity 2s;
 
-      img {
-        width: 100%;
-        vertical-align: middle;
-        background-size: cover;
-      }
+        img {
+          width: 100%;
+          height: 700px;
+          object-fit: cover;
+          vertical-align: middle;
+        }
     }
 
     &__prev,
