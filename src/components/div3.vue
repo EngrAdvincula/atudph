@@ -84,8 +84,10 @@ export default {
 
     @media screen and (max-width: 935px) {
         .div3-container {
-            height: 220vh;
+            height: auto;
             padding-top: 20vh;
+            padding-bottom: 20vh;
+            line-height: 200%;
             .div3-subcontainer {
                 display: block;
                 margin-top: 0;
