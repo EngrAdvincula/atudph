@@ -17,6 +17,12 @@ export default {
 </script>
 
 <style lang='scss'>
+
+* {
+     margin: 0;
+     padding: 0;
+}
+
     $primaryColor: #2da81a;
     $secondaryColor: #949494;
     .div5-container {
@@ -50,7 +56,7 @@ export default {
             }
             .div5-img-container {
                 height: 100vh;
-                width: 40%;
+                width: 55%;
                 position: relative;
                 bottom: 0;
                 img {
@@ -62,20 +68,6 @@ export default {
             }
     }
    
-    @media screen and (max-width: 935px) {
-        .div5-container {
-            .div5-text-container {
-                text-align: center;
-                position: static;
-                width: 100%;
-                margin-top: 300px;
-            }
-            .div5-img-container {
-                display: none;
-            }
-        }
-
-    }
 
     @media screen and (max-width: 1591px) {
         .div5-container {
@@ -84,62 +76,55 @@ export default {
                   }
         }
    }
-
-     @media screen and (max-width: 1425px) {
-        .div5-container {
-             .div5-img-container {
-                         img {
-                              height: 500px;
-                              width: 550px;
-                         }
-                  }
-                 
-             }
-        }
    
 
    @media screen and (max-width: 1251px) {
-       .div5-text-container {
-             h1 {
-                         margin-left: auto;
-                         margin-right: auto;
-                         left: 0;
-                         right: 0;
-                         text-align: center;
-                         margin-top: 80px ;
-
-             }
              .div5-container {
-             .div5-img-container {
+                  width: 100%;
+                  display: inline-block;
+                  position: relative;
+                  .div5-text-container {
+                       position: absolute;
                          margin-left: auto;
                          margin-right: auto;
-                         margin-top: 80px;
+                         margin-top: 40px;
                          left: 0;
                          right: 0;
+                         top: 50%;
                          text-align: center;
-                         top: -5%;
-
-                         img {
-                              height: 300px;
-                              width: 350px;
-                         }
                   }
+                       
+
+               .div5-img-container {
+                    width: 100%;
+                    margin: 0;
+                    padding: 0;
+                         img {
+                              position: absolute;
+                              top: 4%;
+                              width: 430px;
+                              height: 400px;
+                              margin-right: auto;
+                              margin-left: auto;
+                              left: 0;
+                              right: 0;
+                         }
+                    }
                  
-             }
         }
    }
+
 
    @media screen and (max-width: 855px) {
         .div5-container {
              .div5-text-container {
-                  margin-top: 150px;
+                  margin-top: 100px;
                   line-height: 50px;
                   h1 {
                        line-height: 100%;
                   }
                  
              }
-             height: 150vh;
              
              
         }
@@ -148,14 +133,13 @@ export default {
    @media screen and (max-width: 757px) {
         .div5-container {
              .div5-text-container {
-                  margin-top: 180px;
+                  margin-top: 100px;
                   h1 {
                        font-size: 3em;
                        line-height: 150%;
                   }
                   
              }
-             height: 120vh;
              
         }
    }
