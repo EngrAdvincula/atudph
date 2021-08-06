@@ -21,7 +21,6 @@ export default {
     $secondaryColor: #949494;
     .div5-container {
         display: flex;
-        width: 100;
         height: 100vh;
         position: relative;
             .div5-text-container {
@@ -77,4 +76,88 @@ export default {
         }
 
     }
+
+    @media screen and (max-width: 1591px) {
+        .div5-container {
+             .div5-img-container {
+                       left: 1%;
+                  }
+        }
+   }
+
+     @media screen and (max-width: 1425px) {
+        .div5-container {
+             .div5-img-container {
+                         img {
+                              height: 500px;
+                              width: 550px;
+                         }
+                  }
+                 
+             }
+        }
+   
+
+   @media screen and (max-width: 1251px) {
+       .div5-text-container {
+             h1 {
+                         margin-left: auto;
+                         margin-right: auto;
+                         left: 0;
+                         right: 0;
+                         text-align: center;
+                         margin-top: 80px ;
+
+             }
+             .div5-container {
+             .div5-img-container {
+                         margin-left: auto;
+                         margin-right: auto;
+                         margin-top: 80px;
+                         left: 0;
+                         right: 0;
+                         text-align: center;
+                         top: -5%;
+
+                         img {
+                              height: 300px;
+                              width: 350px;
+                         }
+                  }
+                 
+             }
+        }
+   }
+
+   @media screen and (max-width: 855px) {
+        .div5-container {
+             .div5-text-container {
+                  margin-top: 150px;
+                  line-height: 50px;
+                  h1 {
+                       line-height: 100%;
+                  }
+                 
+             }
+             height: 150vh;
+             
+             
+        }
+   }
+
+   @media screen and (max-width: 757px) {
+        .div5-container {
+             .div5-text-container {
+                  margin-top: 180px;
+                  h1 {
+                       font-size: 3em;
+                       line-height: 150%;
+                  }
+                  
+             }
+             height: 120vh;
+             
+        }
+   }
+
 </style>

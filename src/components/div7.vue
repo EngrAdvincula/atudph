@@ -57,4 +57,35 @@ export default {
             }
         }
     }
+
+@media screen and (max-width: 757px) {
+    .div7-container{
+        height: 65px;
+        .div7-subcontainer{
+            .green-logo{
+                position: absolute;
+                top: 0.1px;
+                left: 4%;
+                width: 80px;
+                height: 50px;
+            }
+            h3{
+               top: 23px;
+               font-size: 1em;
+              }
+
+              .social-media-icons{
+                right: 20%;
+                width: 18px;
+                height: 18px;
+                top: 20px;
+
+                img{
+                    margin-left: 10px;
+                }
+               
+              }
+        }
+    }
+}
 </style>

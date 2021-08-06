@@ -117,6 +117,7 @@ import div7 from '@/components/div7.vue'
 
 @media screen and (max-width: 480px) {
     #nav {
+      box-shadow: 0 1px 3px 0 rgba(0,0,0,.2);
       position: static;
       .burger {
         display: block;
