@@ -144,4 +144,28 @@ export default {
         }
    }
 
+   @media screen and (max-width: 437px) {
+             .div5-container {
+                       
+
+               .div5-img-container {
+                    width: 100%;
+                    margin: 0;
+                    padding: 0;
+                         img {
+                              position: absolute;
+                              top: 4%;
+                              width: 320px;
+                              height: 310px;
+                              margin-top: 150px;
+                              margin-right: auto;
+                              margin-left: auto;
+                              left: 0;
+                              right: 0;
+                         }
+                    }
+                 
+        }
+   }
+
 </style>
