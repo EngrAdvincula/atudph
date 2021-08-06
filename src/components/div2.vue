@@ -338,7 +338,6 @@
                          }
                   }
              }
-             height: 120vh;
              .img-container {
                   .food-container {
                        .milk-tea {
@@ -354,6 +353,24 @@
              }
         }
    }
+
+    @media screen and (max-width: 437px) {
+          .banner {
+               .text {
+                    h1, h2 {
+                         font-size: 2.2em;
+                    }
+               }
+               .img-container {
+                    .atud-bike-container {
+                         img {
+                              height: 250px;
+                              width: 300px;
+                         }
+                    }
+               }
+          }
+    }
 
 
 
